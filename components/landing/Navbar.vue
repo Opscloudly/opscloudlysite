@@ -6,15 +6,15 @@ const menuitems = [
   },
   {
     title: "Pricing",
-    path: "/pricing",
+    path: "/opscloudlysite/pricing",
   },
   {
     title: "About",
-    path: "/about",
+    path: "/opscloudlysite/about",
   },
   {
     title: "Contact",
-    path: "/contact",
+    path: "/opscloudlysite/contact",
   },
 ];
 
