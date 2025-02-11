@@ -14,8 +14,4 @@ export default defineNuxtConfig({
   router: {
     base: '/opscloudlysite/',
   },
-  generate: {
-    fallback: "404.html", // Ensures Nuxt handles direct links
-    routes: ["/", "/pricing", "/about","/contact"], // Pre-generate static routes
-  },
 });
