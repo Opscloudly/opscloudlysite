@@ -9,7 +9,9 @@ export default defineNuxtConfig({
   },
   modules: ["nuxt-icon"],
 
-  // GitHub Pages configuration
-  target: 'static',
-
+  // Add these configurations for GitHub Pages
+  target: 'static', // Ensure the target is set to 'static'
+  router: {
+    base: '/opscloudlysite/', // Replace with your repository name
+  },
 });
