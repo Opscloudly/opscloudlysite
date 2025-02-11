@@ -14,4 +14,7 @@ export default defineNuxtConfig({
   router: {
     base: '/opscloudlysite/',
   },
+    generate: {
+    routes: ["/", "/pricing", "/about", "/contact"], // Pre-generate static routes
+  },
 });
