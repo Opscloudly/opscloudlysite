@@ -6,15 +6,15 @@ const menuitems = [
   },
   {
     title: "Pricing",
-    path: "/opscloudlysite/pricing",
+    path: "/pricing",
   },
   {
     title: "About",
-    path: "/opscloudlysite/about",
+    path: "/about",
   },
   {
     title: "Contact",
-    path: "/opscloudlysite/contact",
+    path: "/contact",
   },
 ];
 
@@ -59,12 +59,12 @@ const open = ref(false);
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
           <li v-for="item of menuitems">
-           <NuxtLink
+           <a
               :to="item.path"
               class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900"
             >
               {{ item.title }}
-            </NuxtLink>
+            </a>
           </li>
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
