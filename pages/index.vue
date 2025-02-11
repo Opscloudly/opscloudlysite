@@ -204,9 +204,7 @@ const team = [
           </div> -->
         </div>
       </div>
-      <div>
-        <LandingContactform />
-      </div>
+
     </div>
   </LandingContainer>
 </template>
