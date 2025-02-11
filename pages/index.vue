@@ -171,33 +171,32 @@ const team = [
     </div>
   </LandingContainer>
 <LandingContainer>
-  <div class="flex flex-col items-center text-center">
+  <div class="flex flex-col items-center justify-center min-h-screen text-center">
     <LandingSectionhead>
       <template v-slot:title>Contact</template>
       <template v-slot:desc>I am here to help.</template>
     </LandingSectionhead>
 
-    <div class="grid md:grid-cols-2 gap-10 max-w-4xl mt-16 mx-auto">
-      <div class="text-center md:text-left">
-        <h2 class="font-medium text-2xl text-gray-800">Contact Nuxtship Creator</h2>
-        <p class="text-lg leading-relaxed text-slate-500 mt-3">
-          Have something to say? I am here to help. Fill up the form or send an email.
-        </p>
-        <div class="mt-5 space-y-3">
-          <div class="flex items-center justify-center md:justify-start space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
-            <span>1010 Vienna, Austria</span>
-          </div>
-          <div class="flex items-center justify-center md:justify-start space-x-2 text-gray-600">
-            <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" />
-            <a href="mailto:jakobaichmayr@gmail.com" class="text-blue-600 hover:underline">
-              jakobaichmayr@gmail.com
-            </a>
-          </div>
+    <div class="max-w-4xl mx-auto">
+      <h2 class="font-medium text-2xl text-gray-800">Contact Nuxtship Creator</h2>
+      <p class="text-lg leading-relaxed text-slate-500 mt-3">
+        Have something to say? I am here to help. Fill up the form or send an email.
+      </p>
+      <div class="mt-5 space-y-3">
+        <div class="flex items-center justify-center space-x-2 text-gray-600">
+          <Icon class="text-gray-400 w-4 h-4" name="uil:map-marker" />
+          <span>1010 Vienna, Austria</span>
+        </div>
+        <div class="flex items-center justify-center space-x-2 text-gray-600">
+          <Icon class="text-gray-400 w-4 h-4" name="uil:envelope" />
+          <a href="mailto:jakobaichmayr@gmail.com" class="text-blue-600 hover:underline">
+            jakobaichmayr@gmail.com
+          </a>
         </div>
       </div>
     </div>
   </div>
 </LandingContainer>
+
 
 </template>
