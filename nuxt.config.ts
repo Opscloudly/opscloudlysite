@@ -11,7 +11,5 @@ export default defineNuxtConfig({
 
   // GitHub Pages configuration
   target: 'static',
-  router: {
-    base: '/opscloudlysite/',
-  },
+
 });
