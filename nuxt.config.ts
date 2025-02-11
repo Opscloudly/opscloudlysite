@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
@@ -9,4 +8,10 @@ export default defineNuxtConfig({
     },
   },
   modules: ["nuxt-icon"],
+
+  // GitHub Pages configuration
+  target: 'static',
+  router: {
+    base: '/opscloudlysite/',
+  },
 });
